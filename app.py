@@ -33,8 +33,7 @@ app = Flask(__name__)
 # get channel_secret and channel_access_token from your environment variable
 # change channel_secret and channel_access_token from your line developer
 
-line_bot_api = LineBotApi('jnVIABb/6aSYw4Q4pd1Seu9a+5OCnNJmwMXazYFd4GUfzMGe5OfTACm+NDvFLr0it1MDJEnn48mxIbJFcJmMh0LcaGRzNe3dBwnKaSauZMtgO/8flp6Rk37ASe5ox87k1jNTgQuhNBsizeFH3b1zzwdB04t89/1O/w1cDnyilFU=
-')
+line_bot_api = LineBotApi('jnVIABb/6aSYw4Q4pd1Seu9a+5OCnNJmwMXazYFd4GUfzMGe5OfTACm+NDvFLr0it1MDJEnn48mxIbJFcJmMh0LcaGRzNe3dBwnKaSauZMtgO/8flp6Rk37ASe5ox87k1jNTgQuhNBsizeFH3b1zzwdB04t89/1O/w1cDnyilFU=')
                           
 handler = WebhookHandler('3a83abfc4d448cd8730f389d398f75f6')
 
